@@ -19,3 +19,11 @@
 .container.range-plugin .calendar>.days-grid>.day.start:after, .container.range-plugin .calendar>.days-grid>.day.end:after {
   content: none;
 }
+
+.calendar>.daynames-row>.dayname {
+  color: #00214A
+}
+
+.daynames-row {
+  background-color: #EBEBEB
+}
