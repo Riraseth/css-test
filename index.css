@@ -15,3 +15,7 @@
   background-color: #2AD382;
   color: #00214A;
 }
+
+.container.range-plugin .calendar>.days-grid>.day.start:after, .container.range-plugin .calendar>.days-grid>.day.end:after {
+  content: none;
+}
