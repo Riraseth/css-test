@@ -1,3 +1,17 @@
 .container {
-background-color: red !important;
+  color: #00214A;
+}
+
+.calendar>.header .month-name {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.calendar>.header {
+  background-color: #F1F1F1;
+}
+
+.container.range-plugin .calendar>.days-grid>.day.end, .container.range-plugin .calendar>.days-grid>.day.start {
+  background-color: #2AD382;
+  color: #00214A;
 }
