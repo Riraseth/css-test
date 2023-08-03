@@ -64,4 +64,7 @@
       padding: 10px 0;
       width: var(--day-width) !important;
   }
+  .calendars:not(.grid-1) .calendar>.header .previous-button {
+    visibility: visible;
+  }
 }
