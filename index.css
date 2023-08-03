@@ -43,7 +43,7 @@
   color: #00214A;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 649px) {
   .calendars.grid-2 {
     grid-template-columns: repeat(1,1fr) !important;
   }
@@ -63,5 +63,8 @@
       min-width: var(--day-width) !important;
       padding: 10px 0;
       width: var(--day-width) !important;
+  }
+  .calendars:not(.grid-1) .calendar>.header .previous-button {
+    visibility: visible;
   }
 }
