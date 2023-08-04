@@ -5,6 +5,6 @@
 
 .calendar>.days-grid>.day:hover {
   border: none;
-  background-color: #2AD382;
+  background-color: #2AD382 !important;
   color: #00214A;
 }
