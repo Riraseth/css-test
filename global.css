@@ -43,7 +43,15 @@
   color: #00214A;
 }
 
+.container.inline {
+  box-shadow: none;
+}
+
 @media (max-width: 649px) {
+  .calendar {
+    padding: 0;
+    padding-right: 5px;
+  }
   .calendars.grid-2 {
     grid-template-columns: repeat(2,1fr) !important;
   }
@@ -58,6 +66,14 @@
     padding: 10px 0;
     width:auto !important;
   }
+
+  .container.inline {
+    width: 100%;
+  }
+
+  .calendars .calendar:nth-child(n+2) {
+    display: block !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -65,8 +81,4 @@
     display: block !important;
   }
 
-}
-
-.container.inline {
-  box-shadow: none;
 }
