@@ -47,6 +47,11 @@
   box-shadow: none;
 }
 
+.calendars:not(.grid-1) .calendar>.header .next-button,
+.calendars:not(.grid-1) .calendar>.header .previous-button {
+  visibility: visible !important;
+}
+
 @media (max-width: 649px) {
   .calendar {
     padding: 0;
@@ -80,5 +85,4 @@
   .calendars .calendar:nth-child(n+2) {
     display: block !important;
   }
-
 }
