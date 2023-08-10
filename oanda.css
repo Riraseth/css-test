@@ -1,10 +1,10 @@
 .container.range-plugin .calendar>.days-grid>.day.end, .container.range-plugin .calendar>.days-grid>.day.start {
-  background-color: #2AD382;
-  color: #00214A;
+  background-color: #00214A;
+  color: #FFFFFF;
 }
 
 .calendar>.days-grid>.day:hover {
   border: none;
-  background-color: #2AD382 !important;
-  color: #00214A;
+  background-color: #00214A !important;
+  color: #FFFFFF;
 }
